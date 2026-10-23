@@ -1,0 +1,10 @@
+{
+  "name": "mhb-tunes",
+  "private": true,
+  "type": "module",
+  "description": "Renders public-domain Open Hymnal tunes to organ MP3s for the Methodist Hymn Book app",
+  "dependencies": {
+    "@breezystack/lamejs": "^1.2.7",
+    "@tonejs/midi": "^2.0.28"
+  }
+}

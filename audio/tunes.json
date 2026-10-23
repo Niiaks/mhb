@@ -1,0 +1,182 @@
+[
+ {
+  "number": 10,
+  "tune": "Nun Danket",
+  "music": "",
+  "verses": 3,
+  "introSeconds": 5,
+  "verseSeconds": 35.25,
+  "source": "http://openhymnal.org/ (Now_Thank_We_All_Our_God-Nun_Danket.mid)"
+ },
+ {
+  "number": 12,
+  "tune": "Lauda Anima",
+  "music": "'Praise My Soul' or 'Lauda Anima' or 'St. Paul' John Goss, 1869.  Setting: \"The Choral Hymnal\", 1888.",
+  "verses": 5,
+  "introSeconds": 4,
+  "verseSeconds": 25.25,
+  "source": "http://openhymnal.org/ (Praise_My_Soul_The_King_Of_Heaven-Praise_My_Soul-Lauda_Anima.mid)"
+ },
+ {
+  "number": 34,
+  "tune": "St Denio",
+  "music": "'St. Denio' or 'Joanna' or 'Palestrina'",
+  "verses": 5,
+  "introSeconds": 6,
+  "verseSeconds": 24.25,
+  "source": "http://openhymnal.org/ (Immortal_Invisible_God_Only_Wise-St_Denio.mid)"
+ },
+ {
+  "number": 35,
+  "tune": "Dix",
+  "music": "",
+  "verses": 6,
+  "introSeconds": 4.8,
+  "verseSeconds": 29.1,
+  "source": "http://openhymnal.org/ (For_The_Beauty_Of_The_Earth-Dix.mid)"
+ },
+ {
+  "number": 36,
+  "tune": "Nicaea",
+  "music": "'Nicaea' John Bacchus Dykes, 1861.  Setting: \"Hymns Ancient and Modern\", 1869.",
+  "verses": 4,
+  "introSeconds": 4.36,
+  "verseSeconds": 35.18,
+  "source": "http://openhymnal.org/ (Holy_Holy_Holy-Nicaea.mid)"
+ },
+ {
+  "number": 91,
+  "tune": "Coronation",
+  "music": "",
+  "verses": 8,
+  "introSeconds": 5.5,
+  "verseSeconds": 28.25,
+  "source": "http://openhymnal.org/ (All_Hail_The_Power_Of_Jesus_Name-Coronation.mid)"
+ },
+ {
+  "number": 117,
+  "tune": "Mendelssohn",
+  "music": "'Mendelssohn' from 'Festgesang' Felix Mendelssohn, 1840.  Setting: William H. Cummings, 1857.",
+  "verses": 5,
+  "introSeconds": 4.8,
+  "verseSeconds": 48.3,
+  "source": "http://openhymnal.org/ (Hark_The_Herald_Angels_Sing-Mendelssohn.mid)"
+ },
+ {
+  "number": 118,
+  "tune": "Adeste Fideles",
+  "music": "'Adeste Fideles' or 'Portuguese Hymn' John F. Wade, 1743.  Setting: \"A Hymnal\" (Episcopal), 1916.",
+  "verses": 7,
+  "introSeconds": 8,
+  "verseSeconds": 40.75,
+  "source": "http://openhymnal.org/ (O_Come_All_Ye_Faithful-Adeste_Fideles-Portugese_Hymn.mid)"
+ },
+ {
+  "number": 125,
+  "tune": "St Louis",
+  "music": "",
+  "verses": 5,
+  "introSeconds": 4.8,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (O_Little_Town_Of_Bethlehem-St_Louis.mid)"
+ },
+ {
+  "number": 182,
+  "tune": "Duke Street",
+  "music": "'Rockingham Old' Edward Miller, 1790.",
+  "verses": 5,
+  "introSeconds": 7.38,
+  "verseSeconds": 29.77,
+  "source": "http://openhymnal.org/ (When_I_Survey_The_Wondrous_Cross-Duke_Street.mid)"
+ },
+ {
+  "number": 205,
+  "tune": "Easter Hymn",
+  "music": "'Easter Hymn' from Lyra Davidica, 1708.  Setting: composite found in \"Church Praise: with tunes\", 1885.",
+  "verses": 4,
+  "introSeconds": 4,
+  "verseSeconds": 32.25,
+  "source": "http://openhymnal.org/ (Jesus_Christ_Is_Risen_Today-Easter_Hymn.mid)"
+ },
+ {
+  "number": 271,
+  "tune": "Diademata",
+  "music": "'Diademata' George J. Elvey, 1868.  Setting: \"Appendix to Hymns Ancient and Modern\", 1869.",
+  "verses": 9,
+  "introSeconds": 9.27,
+  "verseSeconds": 35.18,
+  "source": "http://openhymnal.org/ (Crown_Him_With_Many_Crowns-Diademata.mid)"
+ },
+ {
+  "number": 313,
+  "tune": "To God Be the Glory",
+  "music": "",
+  "verses": 3,
+  "introSeconds": 6,
+  "verseSeconds": 48.25,
+  "source": "http://openhymnal.org/ (To_God_Be_the_Glory-To_God_Be_the_Glory.mid)"
+ },
+ {
+  "number": 468,
+  "tune": "Bethany",
+  "music": "'Bethany (Mason)' Lowell Mason, 1856.  Setting: Lowell Mason, 1859.",
+  "verses": 5,
+  "introSeconds": 9,
+  "verseSeconds": 36.19,
+  "source": "http://openhymnal.org/ (Nearer_My_God_To_Thee-Bethany.mid)"
+ },
+ {
+  "number": 538,
+  "tune": "Converse",
+  "music": "'untitled' Charles C. Converse, 1868.  Setting: \"Book of hymns and tunes\", 1874.",
+  "verses": 4,
+  "introSeconds": 4.8,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (What_A_Friend_We_Have_In_Jesus-untitled.mid)"
+ },
+ {
+  "number": 615,
+  "tune": "Cwm Rhondda",
+  "music": "'Cwm Rhondda' John Hughes, 1907.  Setting: \"The Methodist Hymnbook\" (UK), 1933.",
+  "verses": 5,
+  "introSeconds": 4,
+  "verseSeconds": 28.25,
+  "source": "http://openhymnal.org/ (Guide_Me_O_Thou_Great_Jehovah-Cwm_Rhondda.mid)"
+ },
+ {
+  "number": 701,
+  "tune": "Aurelia",
+  "music": "",
+  "verses": 7,
+  "introSeconds": 3.69,
+  "verseSeconds": 29.77,
+  "source": "http://openhymnal.org/ (The_Churchs_One_Foundation-Aurelia.mid)"
+ },
+ {
+  "number": 860,
+  "tune": "Mueller",
+  "music": "'Mueller' James R. Murray, 1887.  Setting: \"Hymnal for American Youth\", 1919.",
+  "verses": 3,
+  "introSeconds": 3.6,
+  "verseSeconds": 29.1,
+  "source": "http://openhymnal.org/ (Away_In_A_Manger-Mueller.mid)"
+ },
+ {
+  "number": 878,
+  "tune": "St Anne",
+  "music": "",
+  "verses": 9,
+  "introSeconds": 4.8,
+  "verseSeconds": 19.5,
+  "source": "http://openhymnal.org/ (Our_God_Our_Help_In_Ages_Past-St_Anne.mid)"
+ },
+ {
+  "number": 948,
+  "tune": "Eventide",
+  "music": "",
+  "verses": 8,
+  "introSeconds": 9.6,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (Abide_With_Me-Eventide.mid)"
+ }
+]

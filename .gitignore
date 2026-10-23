@@ -1,1 +1,5 @@
 .DS_Store
+node_modules/
+scripts/tunes/midi/
+scripts/tunes/oh.abc
+scripts/tunes/matches.json
