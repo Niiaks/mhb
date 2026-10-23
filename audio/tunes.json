@@ -1,21 +1,102 @@
 [
  {
+  "number": 1,
+  "tune": "Richmond",
+  "music": "'Chesterfield' or 'Richmond (Haweis)' or 'Spa Fields Chapel' Thomas Haweis, 1792.",
+  "verses": 19,
+  "mhb": true,
+  "introSeconds": 4.62,
+  "verseSeconds": 19.62,
+  "source": "http://openhymnal.org/ (Hark_The_Glad_Sound-Chesterfield-Richmond_Haweis-Spa_Fields_Chapel.mid)",
+  "mhbTune": "Richmond"
+ },
+ {
+  "number": 2,
+  "tune": "Old 100th",
+  "music": "",
+  "verses": 5,
+  "mhb": true,
+  "introSeconds": 6.5,
+  "verseSeconds": 26.25,
+  "source": "http://openhymnal.org/ (Awake_My_Soul_And_With_The_Sun-Old_100th.mid)",
+  "mhbTune": "Old 100th"
+ },
+ {
+  "number": 3,
+  "tune": "Old 100th",
+  "music": "",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 6.5,
+  "verseSeconds": 26.25,
+  "source": "http://openhymnal.org/ (Awake_My_Soul_And_With_The_Sun-Old_100th.mid)",
+  "mhbTune": "Old 100th"
+ },
+ {
   "number": 10,
   "tune": "Nun Danket",
   "music": "",
   "verses": 3,
   "introSeconds": 5,
   "verseSeconds": 35.25,
-  "source": "http://openhymnal.org/ (Now_Thank_We_All_Our_God-Nun_Danket.mid)"
+  "source": "http://openhymnal.org/ (Now_Thank_We_All_Our_God-Nun_Danket.mid)",
+  "mhb": true,
+  "mhbTune": "Nun Danket"
  },
  {
   "number": 12,
-  "tune": "Lauda Anima",
+  "tune": "Praise, My Soul",
   "music": "'Praise My Soul' or 'Lauda Anima' or 'St. Paul' John Goss, 1869.  Setting: \"The Choral Hymnal\", 1888.",
   "verses": 5,
   "introSeconds": 4,
   "verseSeconds": 25.25,
-  "source": "http://openhymnal.org/ (Praise_My_Soul_The_King_Of_Heaven-Praise_My_Soul-Lauda_Anima.mid)"
+  "source": "http://openhymnal.org/ (Praise_My_Soul_The_King_Of_Heaven-Praise_My_Soul-Lauda_Anima.mid)",
+  "mhb": true,
+  "mhbTune": "Praise, My Soul"
+ },
+ {
+  "number": 13,
+  "tune": "Austria Haydn",
+  "music": "'Austria (Haydn)' or 'Austrian Hymn' Franz Joseph Haydn, 1797.",
+  "verses": 3,
+  "introSeconds": 4.8,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (Praise_The_Lord_Ye_Heavens_Adore_Him-Austria_Haydn-Austrian_Hymn.mid)",
+  "mhb": false,
+  "mhbTune": "Laus Deo"
+ },
+ {
+  "number": 15,
+  "tune": "Leoni",
+  "music": "'Yigdal' or 'Leoni' Traditional Hebrew. Setting: Meyer Lyon, 1780.",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 8,
+  "verseSeconds": 32.25,
+  "source": "http://openhymnal.org/ (The_God_Of_Abraham_Praise-Yigdal-Leoni.mid)",
+  "mhbTune": "Leoni"
+ },
+ {
+  "number": 16,
+  "tune": "Austria",
+  "music": "'Austria (Haydn)' or 'Austrian Hymn' Franz Joseph Haydn, 1797.",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 4.8,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (Glorious_Things_of_Thee_Are_Spoken-Austria_Haydn-Austrian_Hymn.mid)",
+  "mhbTune": "Austria"
+ },
+ {
+  "number": 21,
+  "tune": "Leoni",
+  "music": "'Yigdal' or 'Leoni' Traditional Hebrew. Setting: Meyer Lyon, 1780.",
+  "verses": 12,
+  "introSeconds": 8,
+  "verseSeconds": 32.25,
+  "source": "http://openhymnal.org/ (The_God_Of_Abraham_Praise-Yigdal-Leoni.mid)",
+  "mhb": true,
+  "mhbTune": "Leoni"
  },
  {
   "number": 34,
@@ -24,7 +105,9 @@
   "verses": 5,
   "introSeconds": 6,
   "verseSeconds": 24.25,
-  "source": "http://openhymnal.org/ (Immortal_Invisible_God_Only_Wise-St_Denio.mid)"
+  "source": "http://openhymnal.org/ (Immortal_Invisible_God_Only_Wise-St_Denio.mid)",
+  "mhb": true,
+  "mhbTune": "St Denio"
  },
  {
   "number": 35,
@@ -33,7 +116,9 @@
   "verses": 6,
   "introSeconds": 4.8,
   "verseSeconds": 29.1,
-  "source": "http://openhymnal.org/ (For_The_Beauty_Of_The_Earth-Dix.mid)"
+  "source": "http://openhymnal.org/ (For_The_Beauty_Of_The_Earth-Dix.mid)",
+  "mhb": false,
+  "mhbTune": "Noricum"
  },
  {
   "number": 36,
@@ -42,7 +127,75 @@
   "verses": 4,
   "introSeconds": 4.36,
   "verseSeconds": 35.18,
-  "source": "http://openhymnal.org/ (Holy_Holy_Holy-Nicaea.mid)"
+  "source": "http://openhymnal.org/ (Holy_Holy_Holy-Nicaea.mid)",
+  "mhb": true,
+  "mhbTune": "Nicaea"
+ },
+ {
+  "number": 42,
+  "tune": "Vom Himmel Hoch (Erfurt)",
+  "music": "'Vom Himmel Hoch' traditional German from Schumann's Geistliche Lieder, Leipzig, 1539.",
+  "verses": 12,
+  "mhb": true,
+  "introSeconds": 5.4,
+  "verseSeconds": 20.1,
+  "source": "http://openhymnal.org/ (To_Shepherds_as_They_Watched_By_Night-Vom_Himmel_Hoch.mid)",
+  "mhbTune": "Vom Himmel Hoch (Erfurt)"
+ },
+ {
+  "number": 43,
+  "tune": "St Flavian",
+  "music": "",
+  "verses": 10,
+  "mhb": true,
+  "introSeconds": 4.8,
+  "verseSeconds": 19.5,
+  "source": "http://openhymnal.org/ (Lord_Who_Throughout_These_Forty_Days-St_Flavian.mid)",
+  "mhbTune": "St Flavian"
+ },
+ {
+  "number": 64,
+  "tune": "Lobe Den Herren",
+  "music": "'Lobe den Herren' from Ander Theil des Erneuerten Gesangbuch, 1665.",
+  "verses": 8,
+  "mhb": true,
+  "introSeconds": 6,
+  "verseSeconds": 31.75,
+  "source": "http://openhymnal.org/ (Praise_To_The_Lord_The_Almighty-Lobe_Den_Herren.mid)",
+  "mhbTune": "Lobe Den Herren"
+ },
+ {
+  "number": 82,
+  "tune": "Chesterfield",
+  "music": "'Chesterfield' or 'Richmond (Haweis)' or 'Spa Fields Chapel' Thomas Haweis, 1792.",
+  "verses": 8,
+  "introSeconds": 4.62,
+  "verseSeconds": 19.62,
+  "source": "http://openhymnal.org/ (Hark_The_Glad_Sound-Chesterfield-Richmond_Haweis-Spa_Fields_Chapel.mid)",
+  "mhb": false,
+  "mhbTune": "Bristol"
+ },
+ {
+  "number": 83,
+  "tune": "Corde Natus",
+  "music": "'Divinum Mysterium' or 'Corde Natus' Latin Plainsong, 13th Century.",
+  "verses": 9,
+  "introSeconds": 42.25,
+  "verseSeconds": 42.25,
+  "source": "http://openhymnal.org/ (Of_The_Fathers_Love_Begotten-Divinum_Mysterium-Corde_Natus.mid)",
+  "mhb": true,
+  "mhbTune": "Corde Natus"
+ },
+ {
+  "number": 84,
+  "tune": "St Theodulph",
+  "music": "'Valet Will Ich Dir Geben' or 'St. Theodulph' Melchior Teschner, 1615.",
+  "verses": 6,
+  "mhb": true,
+  "introSeconds": 3.43,
+  "verseSeconds": 27.43,
+  "source": "http://openhymnal.org/ (All_Glory_Laud_And_Honor-Valet_Will_Ich_Dir_Geben-St_Theodulph.mid)",
+  "mhbTune": "St Theodulph"
  },
  {
   "number": 91,
@@ -51,7 +204,20 @@
   "verses": 8,
   "introSeconds": 5.5,
   "verseSeconds": 28.25,
-  "source": "http://openhymnal.org/ (All_Hail_The_Power_Of_Jesus_Name-Coronation.mid)"
+  "source": "http://openhymnal.org/ (All_Hail_The_Power_Of_Jesus_Name-Coronation.mid)",
+  "mhb": false,
+  "mhbTune": "Miles Lane"
+ },
+ {
+  "number": 111,
+  "tune": "Southwell",
+  "music": "'Southwell' William Daman's Psalter, 1579.  Setting: \"Common Service Book\" (ULCA), 1917.",
+  "verses": 5,
+  "mhb": true,
+  "introSeconds": 4.36,
+  "verseSeconds": 17.73,
+  "source": "http://openhymnal.org/ (Lord_Jesus_Think_On_Me-Southwell.mid)",
+  "mhbTune": "Southwell"
  },
  {
   "number": 117,
@@ -60,7 +226,9 @@
   "verses": 5,
   "introSeconds": 4.8,
   "verseSeconds": 48.3,
-  "source": "http://openhymnal.org/ (Hark_The_Herald_Angels_Sing-Mendelssohn.mid)"
+  "source": "http://openhymnal.org/ (Hark_The_Herald_Angels_Sing-Mendelssohn.mid)",
+  "mhb": false,
+  "mhbTune": "Berlin"
  },
  {
   "number": 118,
@@ -69,7 +237,53 @@
   "verses": 7,
   "introSeconds": 8,
   "verseSeconds": 40.75,
-  "source": "http://openhymnal.org/ (O_Come_All_Ye_Faithful-Adeste_Fideles-Portugese_Hymn.mid)"
+  "source": "http://openhymnal.org/ (O_Come_All_Ye_Faithful-Adeste_Fideles-Portugese_Hymn.mid)",
+  "mhb": true,
+  "mhbTune": "Adeste Fideles"
+ },
+ {
+  "number": 119,
+  "tune": "Regent Square",
+  "music": "'Regent Square' Henry Smart, 1867.  Setting: \"Psalms and Hymns for Divine Worship\", 1867.",
+  "verses": 1,
+  "introSeconds": 4.8,
+  "verseSeconds": 29.1,
+  "source": "http://openhymnal.org/ (Angels_From_The_Realms_Of_Glory-Regent_Square.mid)",
+  "mhb": false,
+  "mhbTune": "Woodford Green"
+ },
+ {
+  "number": 121,
+  "tune": "Bonn",
+  "music": "'Ebeling' or 'Bonn' or 'Warum Sollt Ich' or 'All My Heart This Night' Johann Georg Ebeling, 1666.",
+  "verses": 14,
+  "introSeconds": 6.86,
+  "verseSeconds": 27.64,
+  "source": "http://openhymnal.org/ (All_My_Heart_This_Night_Rejoices-Ebeling-Bonn-Warum_Sollt_Ich-All_My_Heart_This_Night.mid)",
+  "mhb": true,
+  "mhbTune": "Bonn"
+ },
+ {
+  "number": 123,
+  "tune": "Stille Nacht",
+  "music": "'Stille Nacht' Franz Xaver Gruber, 1818.  Setting: \"Concordia Kinderch�re\", 1908.",
+  "verses": 3,
+  "mhb": true,
+  "introSeconds": 6,
+  "verseSeconds": 36.5,
+  "source": "http://openhymnal.org/ (Silent_Night-Stille_Nacht.mid)",
+  "mhbTune": "Stille Nacht"
+ },
+ {
+  "number": 124,
+  "tune": "Humility",
+  "music": "",
+  "verses": 7,
+  "introSeconds": 9.6,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (See_Amid_The_Winters_Snow-Humility.mid)",
+  "mhb": false,
+  "mhbTune": "Oxford"
  },
  {
   "number": 125,
@@ -78,16 +292,119 @@
   "verses": 5,
   "introSeconds": 4.8,
   "verseSeconds": 38.7,
-  "source": "http://openhymnal.org/ (O_Little_Town_Of_Bethlehem-St_Louis.mid)"
+  "source": "http://openhymnal.org/ (O_Little_Town_Of_Bethlehem-St_Louis.mid)",
+  "mhb": false,
+  "mhbTune": "Bethlehem"
+ },
+ {
+  "number": 126,
+  "tune": "Vom Himmel Hoch (Erfurt)",
+  "music": "'Vom Himmel Hoch' traditional German from Schumann's Geistliche Lieder, Leipzig, 1539.",
+  "verses": 3,
+  "mhb": true,
+  "introSeconds": 5.4,
+  "verseSeconds": 20.1,
+  "source": "http://openhymnal.org/ (To_Shepherds_as_They_Watched_By_Night-Vom_Himmel_Hoch.mid)",
+  "mhbTune": "Vom Himmel Hoch (Erfurt)"
+ },
+ {
+  "number": 132,
+  "tune": "Dix",
+  "music": "'Dix' or 'Treuer Heiland, Wir Sind Heir' Conrad Kocher, 1838. Abridged by William Henry Monk, 1861.",
+  "verses": 5,
+  "introSeconds": 4.8,
+  "verseSeconds": 29.1,
+  "source": "http://openhymnal.org/ (As_With_Gladness_Men_Of_Old-Dix.mid)",
+  "mhb": false,
+  "mhbTune": "Orient"
+ },
+ {
+  "number": 133,
+  "tune": "Foundation",
+  "music": "'Foundation (Funk)' or 'Protection' Joseph Funk, 1832.  Setting: \"Union Harmony\", 1837.",
+  "verses": 7,
+  "mhb": true,
+  "introSeconds": 6.72,
+  "verseSeconds": 30.96,
+  "source": "http://openhymnal.org/ (How_Firm_A_Foundation-Foundation-Protection.mid)",
+  "mhbTune": "Foundation"
+ },
+ {
+  "number": 137,
+  "tune": "Cranham",
+  "music": "",
+  "verses": 5,
+  "introSeconds": 4.8,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (In_The_Bleak_MidWinter-Cranham.mid)",
+  "mhb": true,
+  "mhbTune": "Cranham"
+ },
+ {
+  "number": 154,
+  "tune": "Kingsfold",
+  "music": "",
+  "verses": 3,
+  "mhb": true,
+  "introSeconds": 9.6,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (Thine_Arm_O_Lord_In_Days_Of_Old-Kingsfold.mid)",
+  "mhbTune": "Kingsfold"
  },
  {
   "number": 182,
-  "tune": "Duke Street",
+  "tune": "Rockingham",
   "music": "'Rockingham Old' Edward Miller, 1790.",
   "verses": 5,
-  "introSeconds": 7.38,
-  "verseSeconds": 29.77,
-  "source": "http://openhymnal.org/ (When_I_Survey_The_Wondrous_Cross-Duke_Street.mid)"
+  "mhb": true,
+  "introSeconds": 5.54,
+  "verseSeconds": 22.38,
+  "source": "http://openhymnal.org/ (When_I_Survey_The_Wondrous_Cross-Rockingham_Old.mid)",
+  "mhbTune": "Rockingham"
+ },
+ {
+  "number": 187,
+  "tune": "St Cross",
+  "music": "'St. Cross' John Bacchus Dykes, 1861. Setting: \"Hymns Ancient and Modern\", 1869.",
+  "verses": 9,
+  "mhb": true,
+  "introSeconds": 6.86,
+  "verseSeconds": 27.64,
+  "source": "http://openhymnal.org/ (Tis_Midnight_and_On_Olives_Brow-St_Cross.mid)",
+  "mhbTune": "St Cross"
+ },
+ {
+  "number": 194,
+  "tune": "Gethsemane",
+  "music": "",
+  "verses": 4,
+  "introSeconds": 5.33,
+  "verseSeconds": 32.33,
+  "source": "http://openhymnal.org/ (Go_to_Dark_Gethsemane-Gethsemane-Petra.mid)",
+  "mhb": false,
+  "mhbTune": "Llyfnant"
+ },
+ {
+  "number": 197,
+  "tune": "St Christopher",
+  "music": "'St. Christopher' Frederick C. Maker, 1881.  Setting: \"Bristol Tune-Book\", 1891.",
+  "verses": 5,
+  "introSeconds": 4.2,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (Beneath_The_Cross_Of_Jesus-St_Christopher.mid)",
+  "mhb": false,
+  "mhbTune": "Beneath The Cross Of Jesus"
+ },
+ {
+  "number": 202,
+  "tune": "Passion Chorale",
+  "music": "'Passion Chorale' or 'Herzlich Tut Mich Verlangen' Hans Leo Hassler, 1601. Adapted by J.S. Bach, 1729.",
+  "verses": 14,
+  "mhb": true,
+  "introSeconds": 4.8,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (O_Sacred_Head_Now_Wounded-Passion_Chorale-Herzlich_Tut_Mich_Verlangen.mid)",
+  "mhbTune": "Passion Chorale"
  },
  {
   "number": 205,
@@ -96,7 +413,130 @@
   "verses": 4,
   "introSeconds": 4,
   "verseSeconds": 32.25,
-  "source": "http://openhymnal.org/ (Jesus_Christ_Is_Risen_Today-Easter_Hymn.mid)"
+  "source": "http://openhymnal.org/ (Jesus_Christ_Is_Risen_Today-Easter_Hymn.mid)",
+  "mhb": false,
+  "mhbTune": "Llanfair"
+ },
+ {
+  "number": 208,
+  "tune": "Ellacombe",
+  "music": "'Ellacombe' from Gesangbuch der Herzogl. Hofkapelle, Wurttemberg, 1784.",
+  "verses": 3,
+  "mhb": true,
+  "introSeconds": 3.69,
+  "verseSeconds": 29.77,
+  "source": "http://openhymnal.org/ (Hosanna_Loud_Hosanna-Ellacombe.mid)",
+  "mhbTune": "Ellacombe"
+ },
+ {
+  "number": 211,
+  "tune": "Christ Arose",
+  "music": "",
+  "verses": 3,
+  "mhb": true,
+  "introSeconds": 5.4,
+  "verseSeconds": 48.3,
+  "source": "http://openhymnal.org/ (Christ_Arose-Christ_Arose.mid)",
+  "mhbTune": "Christ Arose"
+ },
+ {
+  "number": 215,
+  "tune": "Victory",
+  "music": "'Victory' or  'Palestrina' Giovanni P. da Palestrina, 1591.",
+  "verses": 5,
+  "mhb": true,
+  "introSeconds": 3.43,
+  "verseSeconds": 19.71,
+  "source": "http://openhymnal.org/ (The_Strife_Is_Oer_The_Battle_Done-Victory-Palestrina.mid)",
+  "mhbTune": "Victory"
+ },
+ {
+  "number": 223,
+  "tune": "Rex Gloriae",
+  "music": "",
+  "verses": 10,
+  "mhb": true,
+  "introSeconds": 4,
+  "verseSeconds": 32.25,
+  "source": "http://openhymnal.org/ (See_The_Lord_Ascends_In_Triumph-Rex_Gloriae.mid)",
+  "mhbTune": "Rex Gloriae"
+ },
+ {
+  "number": 228,
+  "tune": "Austria",
+  "music": "'Austria (Haydn)' or 'Austrian Hymn' Franz Joseph Haydn, 1797.",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 4.8,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (Glorious_Things_of_Thee_Are_Spoken-Austria_Haydn-Austrian_Hymn.mid)",
+  "mhbTune": "Austria"
+ },
+ {
+  "number": 235,
+  "tune": "Duke Street",
+  "music": "",
+  "verses": 5,
+  "introSeconds": 6.86,
+  "verseSeconds": 27.64,
+  "source": "http://openhymnal.org/ (I_Know_That_My_Redeemer_Lives-Duke_Street.mid)",
+  "mhb": false,
+  "mhbTune": "Torquay"
+ },
+ {
+  "number": 238,
+  "tune": "Olivet",
+  "music": "",
+  "verses": 4,
+  "introSeconds": 9.6,
+  "verseSeconds": 33.9,
+  "source": "http://openhymnal.org/ (My_Faith_Looks_Up_To_Thee-Olivet.mid)",
+  "mhb": false,
+  "mhbTune": "Harlan"
+ },
+ {
+  "number": 239,
+  "tune": "Southwell",
+  "music": "'Southwell' William Daman's Psalter, 1579.  Setting: \"Common Service Book\" (ULCA), 1917.",
+  "verses": 7,
+  "introSeconds": 4.36,
+  "verseSeconds": 17.73,
+  "source": "http://openhymnal.org/ (Lord_Jesus_Think_On_Me-Southwell.mid)",
+  "mhb": true,
+  "mhbTune": "Southwell"
+ },
+ {
+  "number": 255,
+  "tune": "Wachet Auf",
+  "music": "'Wachet Auf' Phillip Nicolai, 1599.  Setting: \"Common Service Book\" (ULCA), 1917.",
+  "verses": 3,
+  "introSeconds": 4.5,
+  "verseSeconds": 47.06,
+  "source": "http://openhymnal.org/ (Wake_Awake_For_Night_Is_Flying-Wachet_Auf.mid)",
+  "mhb": false,
+  "mhbTune": "Sleepers, Wake"
+ },
+ {
+  "number": 257,
+  "tune": "Veni Emmanuel",
+  "music": "'Veni Emmanuel' 15th Century French processional.  Setting: \"Common Service Book\" (ULCA), 1917.",
+  "verses": 8,
+  "introSeconds": 5.54,
+  "verseSeconds": 35.31,
+  "source": "http://openhymnal.org/ (O_Come_O_Come_Emmanuel-Veni_Emmanuel.mid)",
+  "mhb": false,
+  "mhbTune": "Veni Immaneul (Ephratah)"
+ },
+ {
+  "number": 263,
+  "tune": "St George's Windsor",
+  "music": "'St. George`s Windsor', George Job Elvey, 1858. Setting: \"The Anglican Hymn Book\", 1871.",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 4,
+  "verseSeconds": 32.25,
+  "source": "http://openhymnal.org/ (Songs_Of_Thankfulness_And_Praise-St_Georges_Windsor.mid)",
+  "mhbTune": "St George's Windsor"
  },
  {
   "number": 271,
@@ -105,16 +545,152 @@
   "verses": 9,
   "introSeconds": 9.27,
   "verseSeconds": 35.18,
-  "source": "http://openhymnal.org/ (Crown_Him_With_Many_Crowns-Diademata.mid)"
+  "source": "http://openhymnal.org/ (Crown_Him_With_Many_Crowns-Diademata.mid)",
+  "mhb": true,
+  "mhbTune": "Diademata"
+ },
+ {
+  "number": 274,
+  "tune": "Winchester New",
+  "music": "'Winchester New' from \"Musikalisches Handbuch\", Hamburg, 1690.  Setting: Charles Lewis Hutchins, 1896.",
+  "verses": 7,
+  "mhb": true,
+  "introSeconds": 4.8,
+  "verseSeconds": 19.5,
+  "source": "http://openhymnal.org/ (O_Lord_My_Soul_Convicted-Winchester_New.mid)",
+  "mhbTune": "Winchester New"
+ },
+ {
+  "number": 289,
+  "tune": "St Agnes",
+  "music": "",
+  "verses": 7,
+  "mhb": true,
+  "introSeconds": 3.86,
+  "verseSeconds": 18.21,
+  "source": "http://openhymnal.org/ (Lamp_of_Our_Feet-St_Agnes.mid)",
+  "mhbTune": "St Agnes"
+ },
+ {
+  "number": 300,
+  "tune": "Aylesbury",
+  "music": "'Aylesbury' or 'Wirksworth' found in John Chetham's Psalmody, 1718.",
+  "verses": 4,
+  "introSeconds": 6,
+  "verseSeconds": 20.45,
+  "source": "http://openhymnal.org/ (Breathe_On_Me_Breath_Of_God-Aylesbury-Wirksworth.mid)",
+  "mhb": false,
+  "mhbTune": "St Beuno"
+ },
+ {
+  "number": 305,
+  "tune": "Richmond",
+  "music": "'Chesterfield' or 'Richmond (Haweis)' or 'Spa Fields Chapel' Thomas Haweis, 1792.",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 4.62,
+  "verseSeconds": 19.62,
+  "source": "http://openhymnal.org/ (Hark_The_Glad_Sound-Chesterfield-Richmond_Haweis-Spa_Fields_Chapel.mid)",
+  "mhbTune": "Richmond"
  },
  {
   "number": 313,
-  "tune": "To God Be the Glory",
+  "tune": "To God Be The Glory",
   "music": "",
   "verses": 3,
   "introSeconds": 6,
   "verseSeconds": 48.25,
-  "source": "http://openhymnal.org/ (To_God_Be_the_Glory-To_God_Be_the_Glory.mid)"
+  "source": "http://openhymnal.org/ (To_God_Be_the_Glory-To_God_Be_the_Glory.mid)",
+  "mhb": true,
+  "mhbTune": "To God Be The Glory"
+ },
+ {
+  "number": 318,
+  "tune": "In Babilone",
+  "music": "'In Babilone' traditional Dutch found in \"Oude en Nieuwe Hollantse Boerenlities en Contradansen\", 1710.",
+  "verses": 4,
+  "introSeconds": 4.8,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (Souls_of_Men_Why_Will_Ye_Scatter-In_Babilone.mid)",
+  "mhb": false,
+  "mhbTune": "Cross Of Jesus"
+ },
+ {
+  "number": 324,
+  "tune": "Bryn Calfaria",
+  "music": "'Bryn Calfaria' William Owen, 1852.  Setting: \"The English Hymnal\", 1906.",
+  "verses": 10,
+  "mhb": true,
+  "introSeconds": 5.6,
+  "verseSeconds": 36.2,
+  "source": "http://openhymnal.org/ (Lord_Enthroned_In_Heavenly_Splendor-Bryn_Calfaria.mid)",
+  "mhbTune": "Bryn Calfaria"
+ },
+ {
+  "number": 335,
+  "tune": "Pass Me Not",
+  "music": "'Pass Me Not O Gentle Savior' William Howard Doane, 1870.  Setting: \"The Coronation\", 1872.",
+  "verses": 4,
+  "introSeconds": 9.6,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (Pass_Me_Not_O_Gentle_Savior-Pass_Me_Not_O_Gentle_Savior.mid)",
+  "mhb": true,
+  "mhbTune": "Pass Me Not"
+ },
+ {
+  "number": 364,
+  "tune": "Wirksworth",
+  "music": "'Aylesbury' or 'Wirksworth' found in John Chetham's Psalmody, 1718.",
+  "verses": 6,
+  "mhb": true,
+  "introSeconds": 6,
+  "verseSeconds": 20.45,
+  "source": "http://openhymnal.org/ (Breathe_On_Me_Breath_Of_God-Aylesbury-Wirksworth.mid)",
+  "mhbTune": "Wirksworth"
+ },
+ {
+  "number": 380,
+  "tune": "Hyfrydol",
+  "music": "'HyFrydol' Rowland H. Prichard, 1830.  Setting: \"The English Hymnal\", 1906.",
+  "verses": 3,
+  "mhb": true,
+  "introSeconds": 5.54,
+  "verseSeconds": 44.54,
+  "source": "http://openhymnal.org/ (Alleluia_Sing_To_Jesus-Hyfrydol.mid)",
+  "mhbTune": "Hyfrydol"
+ },
+ {
+  "number": 400,
+  "tune": "Mozart",
+  "music": "",
+  "verses": 6,
+  "introSeconds": 5.14,
+  "verseSeconds": 20.79,
+  "source": "http://openhymnal.org/ (Take_My_Life_And_Let_It_Be-Mozart.mid)",
+  "mhb": false,
+  "mhbTune": "Consecration"
+ },
+ {
+  "number": 422,
+  "tune": "Blessèd Assurance",
+  "music": "",
+  "verses": 3,
+  "mhb": true,
+  "introSeconds": 5.4,
+  "verseSeconds": 43.5,
+  "source": "http://openhymnal.org/ (Blessed_Assurance-Blessed_Assurance-Assurance.mid)",
+  "mhbTune": "Blessèd Assurance"
+ },
+ {
+  "number": 430,
+  "tune": "Yoakley",
+  "music": "'Yoakley' William Yoakley, 1820.  Setting: \"The Lute of Zion\", 1853.",
+  "verses": 9,
+  "introSeconds": 7.2,
+  "verseSeconds": 43.5,
+  "source": "http://openhymnal.org/ (Jesus_Thy_Boundless_Love_To_Me-Yoakley.mid)",
+  "mhb": false,
+  "mhbTune": "Giessen"
  },
  {
   "number": 468,
@@ -123,7 +699,75 @@
   "verses": 5,
   "introSeconds": 9,
   "verseSeconds": 36.19,
-  "source": "http://openhymnal.org/ (Nearer_My_God_To_Thee-Bethany.mid)"
+  "source": "http://openhymnal.org/ (Nearer_My_God_To_Thee-Bethany.mid)",
+  "mhb": false,
+  "mhbTune": "Horbury"
+ },
+ {
+  "number": 475,
+  "tune": "I Need Thee",
+  "music": "'I Need Thee Every Hour' Robert Lowry, 1872.  Setting: \"Pentecostal Hymns, No. 2\", 1898.",
+  "verses": 5,
+  "introSeconds": 9,
+  "verseSeconds": 36.38,
+  "source": "http://openhymnal.org/ (I_Need_Thee_Every_Hour-I_Need_Thee_Every_Hour.mid)",
+  "mhb": true,
+  "mhbTune": "I Need Thee"
+ },
+ {
+  "number": 485,
+  "tune": "Azmon",
+  "music": "",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 3.6,
+  "verseSeconds": 14.55,
+  "source": "http://openhymnal.org/ (O_For_A_Thousand_Tongues-Azmon.mid)",
+  "mhbTune": "Azmon"
+ },
+ {
+  "number": 494,
+  "tune": "Ein' Feste Burg",
+  "music": "'Ein Feste Burg (Rhythmic)' Martin Luther, 1529.  Setting: \"Evangelical Lutheran Hymn-Book\", 1931.",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 4.91,
+  "verseSeconds": 40.09,
+  "source": "http://openhymnal.org/ (A_Mighty_Fortress_Is_Our_God-Ein_Feste_Burg_Isorhythmic.mid)",
+  "mhbTune": "Ein' Feste Burg"
+ },
+ {
+  "number": 507,
+  "tune": "Franconia",
+  "music": "'Franconia' Johann Balthasar K�nig, 1738.  Setting: William Henry Havergal, 1847.",
+  "verses": 16,
+  "mhb": true,
+  "introSeconds": 4,
+  "verseSeconds": 16.25,
+  "source": "http://openhymnal.org/ (Within_The_Fathers_House-Franconia.mid)",
+  "mhbTune": "Franconia"
+ },
+ {
+  "number": 509,
+  "tune": "Old 137th",
+  "music": "'Old 137th' or 'Norwich' from Day's Psalter, 1563.  Setting: \"The Holy Year\", 1865.",
+  "verses": 4,
+  "introSeconds": 4,
+  "verseSeconds": 32.25,
+  "source": "http://openhymnal.org/ (The_Galilean_Fishers_Toil-Old_137th.mid)",
+  "mhb": false,
+  "mhbTune": "St Leonard's"
+ },
+ {
+  "number": 525,
+  "tune": "Ar Hyd Y Nos",
+  "music": "'Ar Hyd Y Nos' traditional Welsh.  Setting: \"The English Hymnal\", 1906.",
+  "verses": 3,
+  "mhb": true,
+  "introSeconds": 4.8,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (God_That_Madest_Earth_and_Heaven-Ar_Hyd_Y_Nos.mid)",
+  "mhbTune": "Ar Hyd Y Nos"
  },
  {
   "number": 538,
@@ -132,7 +776,53 @@
   "verses": 4,
   "introSeconds": 4.8,
   "verseSeconds": 38.7,
-  "source": "http://openhymnal.org/ (What_A_Friend_We_Have_In_Jesus-untitled.mid)"
+  "source": "http://openhymnal.org/ (What_A_Friend_We_Have_In_Jesus-untitled.mid)",
+  "mhb": false,
+  "mhbTune": "What A Friend"
+ },
+ {
+  "number": 558,
+  "tune": "St Catherine",
+  "music": "'St. Catherine' Henri F. Hemy (1818-1888).  Setting: James G. Walton, 1874.",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 6,
+  "verseSeconds": 36.25,
+  "source": "http://openhymnal.org/ (Faith_Of_Our_Fathers-St_Catherine.mid)",
+  "mhbTune": "St Catherine"
+ },
+ {
+  "number": 586,
+  "tune": "Unde Et Memores",
+  "music": "'Unde Et Memores' William Henry Monk, 1875.",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 6,
+  "verseSeconds": 36.25,
+  "source": "http://openhymnal.org/ (Thou_Who_At_Thy_First_Eucharist-Unde_Et_Memores.mid)",
+  "mhbTune": "Unde Et Memores"
+ },
+ {
+  "number": 587,
+  "tune": "Nicolaus (Lobt Gott)",
+  "music": "",
+  "verses": 5,
+  "mhb": true,
+  "introSeconds": 4.5,
+  "verseSeconds": 20.25,
+  "source": "http://openhymnal.org/ (The_People_That_in_Darkness_Sat-Lobt_Gott_Ihr_Christen_Allzugleich.mid)",
+  "mhbTune": "Nicolaus (Lobt Gott)"
+ },
+ {
+  "number": 591,
+  "tune": "St Thomas",
+  "music": "'St. Thomas' Aaron Williams, 1770.",
+  "verses": 5,
+  "mhb": true,
+  "introSeconds": 3.21,
+  "verseSeconds": 13.93,
+  "source": "http://openhymnal.org/ (The_Advent_of_Our_God-St_Thomas.mid)",
+  "mhbTune": "St Thomas"
  },
  {
   "number": 615,
@@ -141,7 +831,130 @@
   "verses": 5,
   "introSeconds": 4,
   "verseSeconds": 28.25,
-  "source": "http://openhymnal.org/ (Guide_Me_O_Thou_Great_Jehovah-Cwm_Rhondda.mid)"
+  "source": "http://openhymnal.org/ (Guide_Me_O_Thou_Great_Jehovah-Cwm_Rhondda.mid)",
+  "mhb": true,
+  "mhbTune": "Cwm Rhondda"
+ },
+ {
+  "number": 616,
+  "tune": "Ebenezer",
+  "music": "'Ebenezer' or 'Ton-Y-Botel' Thomas J. Williams, 1890.  Setting: \"A Hymnal\" (Episcopal), 1916.",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 5.33,
+  "verseSeconds": 42.83,
+  "source": "http://openhymnal.org/ (Holy_Spirit_Ever_Dwelling-Ebenezer-Ton_Y_Botel.mid)",
+  "mhbTune": "Ebenezer"
+ },
+ {
+  "number": 632,
+  "tune": "Slane",
+  "music": "'Slane' Traditional Irish.  Setting: Mark Hamilton Dewey, 2007.",
+  "verses": 5,
+  "mhb": true,
+  "introSeconds": 7.2,
+  "verseSeconds": 29.1,
+  "source": "http://openhymnal.org/ (Be_Thou_My_Vision-Slane.mid)",
+  "mhbTune": "Slane"
+ },
+ {
+  "number": 635,
+  "tune": "Potsdam",
+  "music": "'Potsdam' adapted from Johann Sebastian Bach, 1750, by John Goss, 1854. Setting: John Goss, 1854.",
+  "verses": 10,
+  "mhb": true,
+  "introSeconds": 9,
+  "verseSeconds": 17.7,
+  "source": "http://openhymnal.org/ (Tis_Good_Lord_To_Be_Here-Potsdam.mid)",
+  "mhbTune": "Potsdam"
+ },
+ {
+  "number": 646,
+  "tune": "Dies Irae",
+  "music": "'Dies Irae (Dykes)' John Bacchus Dykes, 1861.  Setting: \"Hymns Ancient and Modern\", 1869.",
+  "verses": 9,
+  "introSeconds": 7.2,
+  "verseSeconds": 32.1,
+  "source": "http://openhymnal.org/ (Day_of_Wrath_O_Day_of_Mourning-Dies_Irae_Dykes.mid)",
+  "mhb": true,
+  "mhbTune": "Dies Irae"
+ },
+ {
+  "number": 659,
+  "tune": "Woodbird",
+  "music": "'Woodbird' or 'Es Flog Ein Kleins Waldv�gelein' traditional German found in",
+  "verses": 6,
+  "introSeconds": 3.84,
+  "verseSeconds": 30.96,
+  "source": "http://openhymnal.org/ (O_Day_Of_Rest_And_Gladness-Woodbird.mid)",
+  "mhb": false,
+  "mhbTune": "Munich"
+ },
+ {
+  "number": 668,
+  "tune": "Angel Voices",
+  "music": "",
+  "verses": 5,
+  "introSeconds": 7.2,
+  "verseSeconds": 31.5,
+  "source": "http://openhymnal.org/ (Angel_Voices_Ever_Singing-Angel_Voices_Monk.mid)",
+  "mhb": true,
+  "mhbTune": "Angel Voices"
+ },
+ {
+  "number": 678,
+  "tune": "Darwall's 148th",
+  "music": "",
+  "verses": 7,
+  "mhb": true,
+  "introSeconds": 5.14,
+  "verseSeconds": 24.21,
+  "source": "http://openhymnal.org/ (On_What_Has_Now_Been_Sown-Darwalls_148th.mid)",
+  "mhbTune": "Darwall's 148th"
+ },
+ {
+  "number": 681,
+  "tune": "Dix",
+  "music": "'Dix' or 'Treuer Heiland, Wir Sind Heir' Conrad Kocher, 1838. Abridged by William Henry Monk, 1861.",
+  "verses": 3,
+  "mhb": true,
+  "introSeconds": 4.8,
+  "verseSeconds": 29.1,
+  "source": "http://openhymnal.org/ (As_With_Gladness_Men_Of_Old-Dix.mid)",
+  "mhbTune": "Dix"
+ },
+ {
+  "number": 683,
+  "tune": "Vater Unser (Old 112)",
+  "music": "'Vater Unser im Himmelreich' attr. Martin Luther, found in Valentin Schumann's Geistliche Lieder, Leipzig, 1539.",
+  "verses": 5,
+  "mhb": true,
+  "introSeconds": 5.14,
+  "verseSeconds": 26.79,
+  "source": "http://openhymnal.org/ (Our_Father_Thou_In_Heaven_Above-Vater_Unser_im_Himmelreich.mid)",
+  "mhbTune": "Vater Unser (Old 112)"
+ },
+ {
+  "number": 690,
+  "tune": "Franconia",
+  "music": "'Franconia' Johann Balthasar K�nig, 1738.  Setting: William Henry Havergal, 1847.",
+  "verses": 6,
+  "mhb": true,
+  "introSeconds": 4,
+  "verseSeconds": 16.25,
+  "source": "http://openhymnal.org/ (Within_The_Fathers_House-Franconia.mid)",
+  "mhbTune": "Franconia"
+ },
+ {
+  "number": 693,
+  "tune": "Regent Square",
+  "music": "'Regent Square' Henry Smart, 1867.  Setting: \"Psalms and Hymns for Divine Worship\", 1867.",
+  "verses": 3,
+  "introSeconds": 4.8,
+  "verseSeconds": 29.1,
+  "source": "http://openhymnal.org/ (Lord_Dismiss_Us_With_Thy_Blessing-Regent_Square.mid)",
+  "mhb": false,
+  "mhbTune": "Dismissal"
  },
  {
   "number": 701,
@@ -150,7 +963,108 @@
   "verses": 7,
   "introSeconds": 3.69,
   "verseSeconds": 29.77,
-  "source": "http://openhymnal.org/ (The_Churchs_One_Foundation-Aurelia.mid)"
+  "source": "http://openhymnal.org/ (The_Churchs_One_Foundation-Aurelia.mid)",
+  "mhb": true,
+  "mhbTune": "Aurelia"
+ },
+ {
+  "number": 703,
+  "tune": "Richmond",
+  "music": "'Chesterfield' or 'Richmond (Haweis)' or 'Spa Fields Chapel' Thomas Haweis, 1792.",
+  "verses": 5,
+  "mhb": true,
+  "introSeconds": 4.62,
+  "verseSeconds": 19.62,
+  "source": "http://openhymnal.org/ (Hark_The_Glad_Sound-Chesterfield-Richmond_Haweis-Spa_Fields_Chapel.mid)",
+  "mhbTune": "Richmond"
+ },
+ {
+  "number": 706,
+  "tune": "Austria Haydn",
+  "music": "'Austria (Haydn)' or 'Austrian Hymn' Franz Joseph Haydn, 1797.",
+  "verses": 7,
+  "introSeconds": 4.8,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (Glorious_Things_of_Thee_Are_Spoken-Austria_Haydn-Austrian_Hymn.mid)",
+  "mhb": false,
+  "mhbTune": "Lux Eoi"
+ },
+ {
+  "number": 723,
+  "tune": "Vater Unser (Old 112)",
+  "music": "'Vater Unser im Himmelreich' attr. Martin Luther, found in Valentin Schumann's Geistliche Lieder, Leipzig, 1539.",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 5.14,
+  "verseSeconds": 26.79,
+  "source": "http://openhymnal.org/ (Our_Father_Thou_In_Heaven_Above-Vater_Unser_im_Himmelreich.mid)",
+  "mhbTune": "Vater Unser (Old 112)"
+ },
+ {
+  "number": 726,
+  "tune": "Aberystwyth",
+  "music": "'Aberystwyth (Parry)' Joseph Parry, 1879.  Setting: \"The English Hymnal\", 1906.",
+  "verses": 5,
+  "introSeconds": 4.8,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (Savior_When_In_Dust_To_Thee-Aberystwyth.mid)",
+  "mhb": true,
+  "mhbTune": "Aberystwyth"
+ },
+ {
+  "number": 759,
+  "tune": "Unde Et Memores",
+  "music": "'Unde Et Memores' William Henry Monk, 1875.",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 6,
+  "verseSeconds": 36.25,
+  "source": "http://openhymnal.org/ (Thou_Who_At_Thy_First_Eucharist-Unde_Et_Memores.mid)",
+  "mhbTune": "Unde Et Memores"
+ },
+ {
+  "number": 768,
+  "tune": "Passion Chorale",
+  "music": "'Passion Chorale' or 'Herzlich Tut Mich Verlangen' Hans Leo Hassler, 1601. Adapted by J.S. Bach, 1729.",
+  "verses": 3,
+  "mhb": true,
+  "introSeconds": 4.8,
+  "verseSeconds": 38.7,
+  "source": "http://openhymnal.org/ (O_Sacred_Head_Now_Wounded-Passion_Chorale-Herzlich_Tut_Mich_Verlangen.mid)",
+  "mhbTune": "Passion Chorale"
+ },
+ {
+  "number": 776,
+  "tune": "Aurelia",
+  "music": "",
+  "verses": 4,
+  "introSeconds": 3.69,
+  "verseSeconds": 29.77,
+  "source": "http://openhymnal.org/ (O_Father_All_Creating-Aurelia.mid)",
+  "mhb": false,
+  "mhbTune": "Day Of Rest"
+ },
+ {
+  "number": 784,
+  "tune": "Duke Street",
+  "music": "'Rockingham Old' Edward Miller, 1790.",
+  "verses": 6,
+  "mhb": true,
+  "introSeconds": 7.38,
+  "verseSeconds": 29.77,
+  "source": "http://openhymnal.org/ (When_I_Survey_The_Wondrous_Cross-Duke_Street.mid)",
+  "mhbTune": "Duke Street"
+ },
+ {
+  "number": 836,
+  "tune": "Ellacombe",
+  "music": "'Ellacombe' from Gesangbuch der Herzogl. Hofkapelle, Wurttemberg, 1784.",
+  "verses": 4,
+  "introSeconds": 3.69,
+  "verseSeconds": 29.77,
+  "source": "http://openhymnal.org/ (Hosanna_Loud_Hosanna-Ellacombe.mid)",
+  "mhb": true,
+  "mhbTune": "Ellacombe"
  },
  {
   "number": 860,
@@ -159,7 +1073,9 @@
   "verses": 3,
   "introSeconds": 3.6,
   "verseSeconds": 29.1,
-  "source": "http://openhymnal.org/ (Away_In_A_Manger-Mueller.mid)"
+  "source": "http://openhymnal.org/ (Away_In_A_Manger-Mueller.mid)",
+  "mhb": false,
+  "mhbTune": "Away In A Manger"
  },
  {
   "number": 878,
@@ -168,7 +1084,86 @@
   "verses": 9,
   "introSeconds": 4.8,
   "verseSeconds": 19.5,
-  "source": "http://openhymnal.org/ (Our_God_Our_Help_In_Ages_Past-St_Anne.mid)"
+  "source": "http://openhymnal.org/ (Our_God_Our_Help_In_Ages_Past-St_Anne.mid)",
+  "mhb": true,
+  "mhbTune": "St Anne"
+ },
+ {
+  "number": 890,
+  "tune": "Milwaukee",
+  "music": "'Milwaukee' or 'Macht hoch die T�r (Lemke)' August Lemke, 1849.",
+  "verses": 3,
+  "introSeconds": 7.71,
+  "verseSeconds": 38.79,
+  "source": "http://openhymnal.org/ (Lift_Up_Your_Heads_Ye_Mighty_Gates-Milwaukee-Macht_Hoch_die_Tuer_Lemke.mid)",
+  "mhb": false,
+  "mhbTune": "Marazion"
+ },
+ {
+  "number": 903,
+  "tune": "Erhalt' Uns, Herr",
+  "music": "",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 5,
+  "verseSeconds": 20.25,
+  "source": "http://openhymnal.org/ (The_Law_Of_God_Is_Good_And_Wise-Erhalt_Uns_Herr.mid)",
+  "mhbTune": "Erhalt' Uns, Herr"
+ },
+ {
+  "number": 917,
+  "tune": "Melita",
+  "music": "'Melita' John Bacchus Dykes, 1861.  Setting: \"Hymns Ancient and Modern\", 1869.",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 4.8,
+  "verseSeconds": 29.1,
+  "source": "http://openhymnal.org/ (My_Hope_Is_Built-Melita.mid)",
+  "mhbTune": "Melita"
+ },
+ {
+  "number": 923,
+  "tune": "Energy",
+  "music": "'Energy' William H. Monk (1823-1889). Setting: \"Evangelical Lutheran Hymn-Book\", 1931.",
+  "verses": 6,
+  "introSeconds": 4,
+  "verseSeconds": 16.25,
+  "source": "http://openhymnal.org/ (We_Give_Thee_But_Thine_Own-Energy.mid)",
+  "mhb": false,
+  "mhbTune": "Windermere"
+ },
+ {
+  "number": 931,
+  "tune": "Old 100th",
+  "music": "",
+  "verses": 11,
+  "introSeconds": 6.5,
+  "verseSeconds": 26.25,
+  "source": "http://openhymnal.org/ (Awake_My_Soul_And_With_The_Sun-Old_100th.mid)",
+  "mhb": false,
+  "mhbTune": "Morning Hymn"
+ },
+ {
+  "number": 943,
+  "tune": "Tallis' Canon",
+  "music": "'Tallis` Canon' Thomas Tallis, circa 1567.  Setting: \"A Hymnal\" (Episcopal), 1916.",
+  "verses": 13,
+  "mhb": true,
+  "introSeconds": 4.8,
+  "verseSeconds": 19.5,
+  "source": "http://openhymnal.org/ (All_Praise_To_Thee_My_God_This_Night-Tallis_Canon.mid)",
+  "mhbTune": "Tallis' Canon"
+ },
+ {
+  "number": 946,
+  "tune": "Innsbruck",
+  "music": "'Innsbruck' or 'Nun ruhen alle W�lder' or 'O Welt, Ich Muss Dich Lassen' Heinrich Isaac, 1490.",
+  "verses": 3,
+  "mhb": true,
+  "introSeconds": 6.43,
+  "verseSeconds": 40.36,
+  "source": "http://openhymnal.org/ (Now_Rest_Beneath_Nights_Shadow-Innsbruck-Nun_ruhen_alle_Walder-O_Welt_Ich_Muss_Dich_Lassen.mid)",
+  "mhbTune": "Innsbruck"
  },
  {
   "number": 948,
@@ -177,6 +1172,30 @@
   "verses": 8,
   "introSeconds": 9.6,
   "verseSeconds": 38.7,
-  "source": "http://openhymnal.org/ (Abide_With_Me-Eventide.mid)"
+  "source": "http://openhymnal.org/ (Abide_With_Me-Eventide.mid)",
+  "mhb": true,
+  "mhbTune": "Eventide"
+ },
+ {
+  "number": 962,
+  "tune": "St George's Windsor",
+  "music": "'St. George`s Windsor', George Job Elvey, 1858. Setting: \"The Anglican Hymn Book\", 1871.",
+  "verses": 4,
+  "mhb": true,
+  "introSeconds": 4,
+  "verseSeconds": 32.25,
+  "source": "http://openhymnal.org/ (Songs_Of_Thankfulness_And_Praise-St_Georges_Windsor.mid)",
+  "mhbTune": "St George's Windsor"
+ },
+ {
+  "number": 983,
+  "tune": "Winchester New",
+  "music": "'Winchester New' from \"Musikalisches Handbuch\", Hamburg, 1690.  Setting: Charles Lewis Hutchins, 1896.",
+  "verses": 6,
+  "mhb": true,
+  "introSeconds": 4.8,
+  "verseSeconds": 19.5,
+  "source": "http://openhymnal.org/ (O_Lord_My_Soul_Convicted-Winchester_New.mid)",
+  "mhbTune": "Winchester New"
  }
 ]

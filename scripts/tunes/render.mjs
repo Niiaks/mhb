@@ -11,6 +11,11 @@ const { Midi } = tonejs;
 const [HYMNS, OUT, ...only] = process.argv.slice(2);
 const hymns = JSON.parse(readFileSync(HYMNS, 'utf8'));
 const matches = JSON.parse(readFileSync('matches.json', 'utf8'));
+// Hymns whose 1933 MHB tune (per hymnary.org) is in Open Hymnal; see plan.mjs.
+const plan = JSON.parse(readFileSync('plan.json', 'utf8'));
+// "ST. ANNE" -> "St Anne", "DARWALL'S 148TH" -> "Darwall's 148th"
+const titleCase = (s) =>
+  s.toLowerCase().replace(/st. /g, 'st ').replace(/(^|[s(-])([a-z])/g, (_, a, b) => a + b.toUpperCase());
 
 const PILOT = [10, 12, 34, 35, 36, 91, 117, 118, 125, 182, 205, 271, 313, 468, 538, 615, 701, 860, 878, 948];
 const RATE = 22050;
@@ -35,13 +40,32 @@ const syllables = (text) =>
     .reduce((n, w) => n + Math.max(1, (w.replace(/'/g, '').replace(/e$/, '').match(/[aeiouy]+/g) || []).length), 0);
 
 /**
+ * Where the melody inside [start, end) first repeats, i.e. where verse 2 starts
+ * if the section holds several verses. Returns `end` when nothing repeats.
+ */
+function firstRepeat(midi, start, end) {
+  const tracks = midi.tracks.filter((t) => t.notes.length);
+  const avg = (t) => t.notes.reduce((s, n) => s + n.midi, 0) / t.notes.length;
+  const melody = tracks.reduce((a, b) => (avg(a) >= avg(b) ? a : b)).notes.filter((n) => n.time >= start - 0.01 && n.time < end - 0.01);
+  const pitches = melody.map((n) => n.midi);
+  for (let p = 8; p <= pitches.length / 2; p++) {
+    let same = 0;
+    for (let i = 0; i + p < pitches.length; i++) if (pitches[i] === pitches[i + p]) same++;
+    if (same / (pitches.length - p) > 0.9) return melody[p].time;
+  }
+  return end;
+}
+
+/**
  * Open Hymnal MIDIs start with a short organ introduction, and every verse
- * starts with a tempo marker, so the markers give the verse boundaries.
+ * starts with a tempo marker, so the markers give the verse boundaries. A few
+ * files mark only the start of the verses; then the melody's first repeat does.
  */
 function sections(midi) {
   const starts = [...new Set(midi.header.tempos.map((t) => Number(t.time.toFixed(3))))].filter((t) => t > 0);
   if (starts.length < 2) throw new Error('no verse markers');
-  const [verseStart, nextVerse] = starts;
+  const verseStart = starts[0];
+  const nextVerse = firstRepeat(midi, verseStart, starts[1]);
   const notes = midi.tracks.flatMap((t) => t.notes);
   return {
     intro: notes.filter((n) => n.time < verseStart - 0.01),
@@ -54,16 +78,29 @@ function sections(midi) {
 }
 
 /**
- * How many verses the MHB text has. The scraped lyrics write a chorus as a
- * "Refrain" placeholder stanza (with the chorus text once, after the first
- * placeholder), and some hymns lost their verse breaks entirely.
+ * How many verses the MHB text has. The scraped lyrics mark a chorus with a
+ * "Refrain" line (the chorus text appears once, with or after the first one),
+ * some hymns split each verse into two stanzas, and some lost their verse
+ * breaks entirely.
  */
 function verseCount(hymn, metre) {
-  const first = hymn.stanzas.indexOf('Refrain');
-  const stanzas = hymn.stanzas.filter((s, i) => s !== 'Refrain' && !(first >= 0 && i === first + 1));
-  // Syllables are reliable for a regular metre without a refrain; otherwise count stanzas.
-  if (first >= 0 || !/^[\d ]+$/.test(metre)) return stanzas.length;
+  const { stanzas } = hymn;
+  const lines = (s) => s.split('\n');
+
+  // With a refrain: count the stanzas that hold anything besides the refrain.
+  const first = stanzas.findIndex((s) => lines(s)[0] === 'Refrain');
+  if (first >= 0) {
+    const refrainText = stanzas[first] === 'Refrain' ? (stanzas[first + 1] ?? '') : stanzas[first];
+    const refrain = new Set(lines(refrainText).filter((l) => l !== 'Refrain'));
+    return stanzas.filter((s) => lines(s).some((l) => l !== 'Refrain' && !refrain.has(l))).length;
+  }
+
+  if (!/^[\d ]+$/.test(metre)) return stanzas.length;
   const perVerse = metre.split(' ').reduce((a, b) => a + Number(b), 0);
+
+  // Clean stanzas (each about one tune verse long) count directly; otherwise go by syllables.
+  const ratio = syllables(stanzas[0]) / perVerse;
+  if (stanzas.every((s) => lines(s).length >= 2) && ratio > 0.8 && ratio < 1.25) return stanzas.length;
   return Math.max(1, Math.round(syllables(stanzas.join(' ')) / perVerse));
 }
 
@@ -123,20 +160,29 @@ const list = only.length ? only.map(Number) : PILOT;
 const tunes = [];
 for (const number of list) {
   const hymn = hymns.find((h) => h.number === number);
+  // Prefer the tune the 1933 MHB sets (plan.json, from hymnary.org); else the title match.
+  const mhb = plan.files[number];
   const match = matches.find((m) => m.number === number);
-  const file = match.files[0];
-  const meta = abcMeta[match.oh] ?? { metre: '', music: '' };
-  const parts = sections(new Midi(readFileSync(`midi/${file}`)));
+  const file = mhb?.file ?? match.files[0];
+  const meta = abcMeta[mhb?.ohTitle ?? match.oh] ?? { metre: '', music: '' };
+  let parts;
+  try {
+    parts = sections(new Midi(readFileSync(`midi/${file}`)));
+  } catch (e) {
+    console.log('SKIP', number, hymn.title, '|', file, '|', e.message);
+    continue;
+  }
   const verses = verseCount(hymn, meta.metre);
   const data = mp3(render(parts, verses));
   writeFileSync(`${OUT}/${number}.mp3`, data);
 
-  const tune = file.replace(/\.mid$/, '').split('-')[1].replace(/_/g, ' ');
+  const tune = mhb ? titleCase(mhb.mhbTune) : file.replace(/\.mid$/, '').split('-')[1].replace(/_/g, ' ');
   tunes.push({
     number,
     tune,
     music: meta.music,
     verses,
+    mhb: Boolean(mhb),
     introSeconds: Number(parts.introSeconds.toFixed(2)),
     verseSeconds: Number(parts.verseSeconds.toFixed(2)),
     source: `http://openhymnal.org/ (${file})`,
@@ -147,4 +193,11 @@ for (const number of list) {
     (data.length / 1024).toFixed(0) + 'KB',
   );
 }
-if (!only.length) writeFileSync(`${OUT}/tunes.json`, JSON.stringify(tunes, null, 1));
+// Merge into the existing index, so rendering a few hymns doesn't drop the others.
+let existing = [];
+try {
+  existing = JSON.parse(readFileSync(`${OUT}/tunes.json`, 'utf8'));
+} catch {}
+const merged = [...existing.filter((t) => !list.includes(t.number)), ...tunes].sort((a, b) => a.number - b.number);
+writeFileSync(`${OUT}/tunes.json`, JSON.stringify(merged, null, 1) + '\n');
+console.log(`tunes.json now lists ${merged.length} tunes`);
